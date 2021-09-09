@@ -30,7 +30,7 @@ jobs:
         stack-version: 7.x-SNAPSHOT
     - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: trufflruby-head
+        ruby-version: truffleruby-head
     - name: Bundle
       run: |
         sudo apt-get install libsqlite3-dev
